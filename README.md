@@ -41,7 +41,7 @@ All components are modular, making it easy to adapt for any portfolio or job pos
 
 ## Tech Stack
 
-- Python 3.11+  
+- Python
 - Streamlit – Web app interface  
 - LangChain & LangChain-Groq – LLM pipelines & prompts  
 - ChromaDB – Vector database for portfolio projects  
