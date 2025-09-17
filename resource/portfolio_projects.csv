@@ -1,0 +1,31 @@
+Project_name,URL,Skills,Description
+DataWrangler,https://github.com/dummyuser/datawrangler,"Python, Pandas, SQL",Cleaned and transformed raw datasets for analysis.
+InsightGenerator,https://github.com/dummyuser/insightgenerator,"Excel, SQL, Data Analysis",Performed exploratory data analysis and generated insights.
+PredictiveML,https://github.com/dummyuser/predictiveml,"Python, Scikit-learn, Machine Learning",Built regression and classification models for predictive analytics.
+ClassifyIt,https://github.com/dummyuser/classifyit,"Python, TensorFlow, PyTorch",Developed deep learning models for image/text classification.
+NLPAnalyzer,https://github.com/dummyuser/nlpanalyzer,"NLP, Transformers, Python",Built a text classification pipeline using transformer models.
+ChatBotBuilder,https://github.com/dummyuser/chatbotbuilder,"Python, NLP, Rasa",Created a conversational AI chatbot with NLP capabilities.
+VizDash,https://github.com/dummyuser/vizdash,"Tableau, Dash, Data Visualization",Built interactive dashboards for key business metrics.
+KPIVisualizer,https://github.com/dummyuser/kpivisualizer,"Power BI, Data Visualization, Excel",Created KPI dashboards and visual reports for management.
+WebScrapeMaster,https://github.com/dummyuser/webscrapemaster,"Python, BeautifulSoup, Selenium",Scraped and stored structured data from multiple websites.
+CrawlBot,https://github.com/dummyuser/crawlbot,"Python, Web Scraping, Data Cleaning",Built automated scraping pipelines for e-commerce data.
+CloudMLDeploy,https://github.com/dummyuser/cloudmldeploy,"AWS, Docker, ML Deployment",Deployed ML pipelines to cloud using Docker containers.
+CloudInfraManager,https://github.com/dummyuser/cloudinframanager,"Azure, Terraform, DevOps",Managed cloud infrastructure and automated deployment workflows.
+StatsPro,https://github.com/dummyuser/statspro,"R, Statistical Analysis, Hypothesis Testing",Performed statistical modeling and testing for business insights.
+ExperimentLab,https://github.com/dummyuser/experimentlab,"R, Python, A/B Testing",Conducted experiments and analyzed results for product optimization.
+ForecastGenius,https://github.com/dummyuser/forecastgenius,"Python, Time Series, Forecasting",Built time series forecasting models for sales predictions.
+AnomalyDetector,https://github.com/dummyuser/anomalydetector,"Python, ML, Anomaly Detection",Detected anomalies in transactional datasets using ML models.
+SQLWizard,https://github.com/dummyuser/sqlwizard,"SQL, Database Management, Queries",Wrote complex SQL queries and managed relational databases.
+ReportAutomator,https://github.com/dummyuser/reportautomator,"Excel, SQL, Automation",Automated report generation and data pipelines.
+MicroserviceBuilder,https://github.com/dummyuser/microservicebuilder,"Python, Flask, REST APIs",Built and deployed microservices for backend applications.
+ServiceOrchestrator,https://github.com/dummyuser/serviceorchestrator,"Python, Docker, Kubernetes",Orchestrated microservices with containerization and deployment pipelines.
+PortfolioSite,https://github.com/dummyuser/portfoliosite,"HTML, CSS, JavaScript, React",Built a personal portfolio website showcasing projects.
+TaskManagerApp,https://github.com/dummyuser/taskmanagerapp,"Python, Flask, REST APIs, Bootstrap",Developed a web app for task management with backend API.
+EcomStore,https://github.com/dummyuser/ecomstore,"Django, Python, SQL, HTML, CSS",Built a full-stack e-commerce web application.
+BlogPlatform,https://github.com/dummyuser/blogplatform,"Node.js, Express, MongoDB, JavaScript",Created a blogging platform with user authentication and CRUD features.
+ChatApp,https://github.com/dummyuser/chatapp,"React, Node.js, Socket.IO, WebSockets",Built a real-time chat application with private and group messaging.
+FoodDeliveryApp,https://github.com/dummyuser/fooddeliveryapp,"React Native, Firebase, REST APIs",Developed a mobile-friendly food delivery web app with backend integration.
+EventBooking,https://github.com/dummyuser/eventbooking,"Angular, Node.js, SQL, Bootstrap",Web application for booking events with ticket management.
+PortfolioCMS,https://github.com/dummyuser/portfoliocms,"Django, Python, React, PostgreSQL",Content management system for managing portfolio websites.
+FitnessTrackerWeb,https://github.com/dummyuser/fitnesstrackerweb,"Flask, Python, Chart.js, HTML/CSS",Built a fitness tracker web app to log workouts and visualize progress.
+TravelPlanner,https://github.com/dummyuser/travelplanner,"Vue.js, Node.js, MongoDB, REST APIs","Web app to plan trips, manage itineraries, and share with friends."
