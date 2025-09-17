@@ -88,8 +88,9 @@ Cold-Email-Generator/
 1. Clone the repository:
 
 ```
-git clone <repo-url>
-cd Cold-Email-Generator
+git clone https://github.com/Sravya-T01/cold-email-generator
+cd cold-email-generator
+
 ```
 
 2. Create and activate a virtual environment inside your project folder:
