@@ -1,18 +1,21 @@
+import sys
+
+try:
+    import pysqlite3
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except ImportError:
+    pass  # fallback if pysqlite3 not available
+
 import pandas as pd
 import chromadb
 import uuid
-from chromadb.config import Settings
 
 
 class Portfolio:
     def __init__(self, file_path="resource/portfolio_projects.csv"):
         self.file_path = file_path
         self.data = pd.read_csv(file_path)
-        # Use DuckDB + Parquet instead of SQLite (no sqlite3 issues)
-        self.chroma_client = chromadb.PersistentClient(
-            path="vectorstore",
-            settings=Settings(chroma_db_impl="duckdb+parquet")
-        )
+        self.chroma_client = chromadb.PersistentClient('vectorstore')
         self.collection = self.chroma_client.get_or_create_collection(name="portfolio")
 
     def load_portfolio(self):
