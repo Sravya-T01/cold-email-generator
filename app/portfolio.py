@@ -6,6 +6,7 @@ try:
 except ImportError:
     pass  # fallback if pysqlite3 not available
 
+import os
 import pandas as pd
 import chromadb
 import uuid
@@ -15,6 +16,11 @@ class Portfolio:
     def __init__(self, file_path="resource/portfolio_projects.csv"):
         self.file_path = file_path
         self.data = pd.read_csv(file_path)
+
+        # Ensure vectorstore folder exists in container
+        os.makedirs('vectorstore', exist_ok=True)
+
+
         self.chroma_client = chromadb.PersistentClient('vectorstore')
         self.collection = self.chroma_client.get_or_create_collection(name="portfolio")
 

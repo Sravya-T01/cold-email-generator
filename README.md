@@ -138,25 +138,36 @@ streamlit run app/main.py
 
 You can run this app directly from Docker Hub without building it locally.
 
-### Pull the Image
+### 1. Pull the Docker image
 
 ```bash
 docker pull sravyat/cold-email-generator:latest
 ```
 
-### Run the Container
+### 2. Create a `.env` file
+
+- Add your API key(s) and optional settings:
+
+```bash
+# Create a file named .env with contents:
+GROQ_API_KEY=<your_api_key>
+USER_AGENT=<optional_user_agent>
+```
+
+### 3. Run the container
 
 ```bash
 docker run --env-file .env -p 8501:8501 sravyat/cold-email-generator:latest
 ```
 
-### Access the App
+### 4. Access the app
 
 Open your browser at:
 
 ```bash
 http://localhost:8501
 ```
+
 
 ## Example Output
 
