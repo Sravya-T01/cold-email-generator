@@ -134,7 +134,7 @@ streamlit run app/main.py
 
 ---
 
-## Docker Deployment (via Docker Hub)
+## Docker Deployment
 
 You can run this app directly from Docker Hub without building it locally.
 
