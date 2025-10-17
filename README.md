@@ -134,6 +134,30 @@ streamlit run app/main.py
 
 ---
 
+## Docker Deployment (via Docker Hub)
+
+You can run this app directly from Docker Hub without building it locally.
+
+### Pull the Image
+
+```bash
+docker pull sravyat/cold-email-generator:latest
+```
+
+### Run the Container
+
+```bash
+docker run --env-file .env -p 8501:8501 sravyat/cold-email-generator:latest
+```
+
+### Access the App
+
+Open your browser at:
+
+```bash
+http://localhost:8501
+```
+
 ## Example Output
 
 **Email for Applied Machine Learning Engineer at Apple**
