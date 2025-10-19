@@ -159,6 +159,10 @@ USER_AGENT=<optional_user_agent>
 ```bash
 docker run --env-file .env -p 8501:8501 sravyat/cold-email-generator:latest
 ```
+If you are on a Mac (M1/M2 / ARM64):
+```bash
+docker run --platform linux/amd64 --env-file .env -p 8501:8501 sravyat/cold-email-generator:latest
+```
 
 ### 4. Access the app
 
